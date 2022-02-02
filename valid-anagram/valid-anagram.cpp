@@ -12,8 +12,9 @@ public:
             count[t[i] - 'a']--;
                 
             if(count[t[i] - 'a'] < 0) {
-                return false;
+                    return false;
             }
+            
         }
         return true;
     }
